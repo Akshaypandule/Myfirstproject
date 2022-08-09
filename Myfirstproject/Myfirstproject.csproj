@@ -3,7 +3,11 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-	<StartupObject>Myfirstproject.polymorphism.loanoverloading</StartupObject>
+	<StartupObject>Myfirstproject.ArrayNew.Counteven</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Overriding\" />
+  </ItemGroup>
 
 </Project>
