@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Myfirstproject.Interview_Question
-{  // Palindrome number 
+{  // Palindrome number  
     class ABC
     {
         public static void Main(string[] args)

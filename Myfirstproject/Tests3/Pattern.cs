@@ -18,12 +18,12 @@ namespace Myfirstproject.Tests3
                 {
                     if (k >= 5 - i && k <= 3 + i)
                     {
-                        Console.WriteLine(j);
+                        Console.Write(j);
                         j++;
                     }
                     else
                     {
-                        Console.WriteLine(" ");
+                        Console.WriteLine("");
                     }
                 }
                  Console.WriteLine();
