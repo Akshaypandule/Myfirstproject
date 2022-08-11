@@ -6,7 +6,7 @@ namespace Myfirstproject.ArrayNew
 {
     class Addarray
     {
-           public void OddEven(int[]a)
+           public void OddEven()
            {
             int[] a = { 10, 20, 6, 5, 3, 8, 9, 1, 72 };
             int E1=0;

@@ -13,8 +13,7 @@ namespace Myfirstproject.ArrayNew
             for(i=0;i<a.Length;i++)
             {
                 if(a[i]%2==0)
-                {
-                    
+                { 
                     even++;
                 }
             }

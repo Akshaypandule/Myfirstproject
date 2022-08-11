@@ -14,7 +14,6 @@ namespace Myfirstproject.ArrayNew
             {
                 if(a[i]%2!=0)
                 {
-                    odd = odd;
                     odd++;
                 }
             }
