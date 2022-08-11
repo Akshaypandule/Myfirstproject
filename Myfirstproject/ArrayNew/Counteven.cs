@@ -14,7 +14,7 @@ namespace Myfirstproject.ArrayNew
             {
                 if(a[i]%2==0)
                 {
-                    even = even;
+                    
                     even++;
                 }
             }

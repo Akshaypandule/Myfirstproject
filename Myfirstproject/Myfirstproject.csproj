@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-	<StartupObject>Myfirstproject.Tests3.Pattern</StartupObject>
+	<StartupObject>Myfirstproject.ArrayNew.Minchar</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

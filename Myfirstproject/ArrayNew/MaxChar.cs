@@ -16,14 +16,19 @@ namespace Myfirstproject.ArrayNew
             for (int i=0;i<ch.Length;i++)
             {
                 if(max<ch[i])
+                {
+                    max = ch[i];
+                }
             }
+            return max;
             
         }
+        static void Main(string[] args)
+        {
+            char[] c = { 'a', 'A', 'z', 'W', 'K' };
+            char value = MaxChar.FindMax(c);
+            Console.WriteLine("Max Char of Array=" + value);
+        }
     }
-    static void Main(string[] args)
-    {
-        char[] c = { 'a', 'A', 'z', 'W', 'K' };
-        char maxvale = MaxChar.FindMax(a);
-        Console.WriteLine("Max Char of Array="+maxvalue);
-    }
+   
 }
