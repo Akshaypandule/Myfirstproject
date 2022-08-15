@@ -39,10 +39,7 @@ namespace Myfirstproject.ArrayNew
                     Odd[y++] = a[i];
                    }
                }
-            static void Main(string[] args)
-            {
-                for (int i = 0; i < even1.Length; 
-            }
+            
            }
         
         

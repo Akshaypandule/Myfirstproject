@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Myfirstproject
+namespace Myfirstproject.ArrayNew
 {
-    class basic
+    class Mergearray
     {
+        
+        
     }
 }
