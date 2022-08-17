@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-	<StartupObject>Myfirstproject.Test_4.Pen</StartupObject>
+	<StartupObject>Myfirstproject._2Darray.Starpattern</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
