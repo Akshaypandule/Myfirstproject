@@ -1,28 +1,36 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Myfirstproject._2Darray
 {
-    class Starpattern
+    class Sparsematrix
     {
-        public static void display(int[,] a)
+        public static void display(int[,]a)
         {
-            for (int i = 0; i < a.GetLength(0); i++)
+            int b = 0;
+            int k = 0;
+            for(int i=0;i<a.GetLength(0);i++)
             {
-                for (int j = 0; j < a.GetLength(1); j++)
+                for(int j=0;j<a.GetLength(1);j++)
                 {
-                    if (i <= j)
+                    if(a[i,j]!=0)
                     {
-                        Console.Write('*');
+                        b++;
                     }
                     else
                     {
-                        Console.Write(" ");
-                    }
+                        k++;
+                    }    
                 }
-                Console.WriteLine();
+            }
+            if (k>b)
+            {
+                Console.WriteLine("Sparsematrix");
+            }
+            else
+            {
+                Console.WriteLine("Not sparsmatrix");
             }
         }
         static void Main(string[] args)
@@ -36,7 +44,8 @@ namespace Myfirstproject._2Darray
                     arr[i, j] = int.Parse(Console.ReadLine());
                 }
             }
-            Starpattern.display(arr);
+            Sparsematrix.display(arr);
+            
         }
     }
 }

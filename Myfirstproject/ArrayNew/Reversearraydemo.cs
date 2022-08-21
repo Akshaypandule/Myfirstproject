@@ -29,10 +29,10 @@ namespace Myfirstproject.ArrayNew
             {
                 arr[i] = int.Parse(Console.ReadLine());
             }
-            Console.WriteLine(String.Join(" ",arr));
+          //  Console.WriteLine(String.Join(,arr));
             int [] r= Reversearraydemo.Reverse(arr);
             Console.WriteLine("......................");
-            Console.WriteLine(String.Join(" ", arr));
+           // Console.WriteLine(String.Join(" ", arr));
         }
     }
 }
